@@ -5,6 +5,7 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,4 +36,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#ul2{
+  list-style-type: square;
+}
+
+#midDiv{
+  display: flex;
+  gap: 20px;
+  font-size: 12.5px;
+  
+}
+#btn>button{
+  font-weight: 550;
+  background-color: teal;
+  color: white;
+  border: 0;
+  border-radius: 15px;
+  padding:5px 15px 5px 15px
 }
